@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+  }
+
+  header {
+    background-image: url(https://th.bing.com/th/id/R.f45f14eac91ab85f4265d560fab29879?rik=rcC2XuTc7IwN6w&riu=http%3a%2f%2fwww.nafu.co.jp%2fbaibai%2f26%2ft762p26.jpg&ehk=WqZPSoieC9Tszaw79MoJs1TlHX%2bPiMJFRNnh53GoAw8%3d&risl=&pid=ImgRaw&r=0); /* 背景画像 */
+    height: 100px; /* 高さ */
+    padding-top: 150px; /* 上の余白 */
+    background-repeat: no-repeat; /* 背景画像の繰り返しを無効化 */
+    background-size: cover; /* 背景画像をボックスにフィットさせる */
+    background-position: center;
+  }
+  
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: #f5f5f5;
+    margin-top: -50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影を追加 */
+  }
+  
+
+.concept{
+text-align: center;
+vertical-align: 20px;
+}
+
+hr.underline {
+  border: none;
+  height: 1px;
+  background-color: #000000;
+  margin: 0 auto;
+  width: 25%;
+}
+
+
+.text{
+        font-weight: bold;
+        text-align: center;   
+        padding-bottom: 10px;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+table {
+  padding-top: 30px;
+  width: 100%;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 2px solid #000000; /* 太い黒線 */
+  }
+  
+
+.participant-list {
+  margin-bottom: 20px;
+  margin: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.aaa{
+  text-align: center;
+  list-style: none;
+  margin: 50px;
+}
